@@ -1,4 +1,4 @@
-"use client"
+/* "use client"
 
 import * as React from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
@@ -60,7 +60,7 @@ function Calendar({
         ...classNames,
       }}
       components={{
-        IconLeft: ({ className, ...props }) => (
+        IconLeft: ({ className:any, ...props }) => (
           <ChevronLeft className={cn("h-4 w-4", className)} {...props} />
         ),
         IconRight: ({ className, ...props }) => (
@@ -74,3 +74,4 @@ function Calendar({
 Calendar.displayName = "Calendar"
 
 export { Calendar }
+ */
